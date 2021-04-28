@@ -4,7 +4,8 @@ const assertEqual = function(actual, expected) {
   } else {
     console.log(`🛑🛑🛑 Assertion failed: ${actual} !== ${expected}`);
   }
-  function eqArrays(arr1, arr2) {
+}
+  const eqArrays = function(arr1, arr2) {
     if(arr1.length != arr2.length) {
       return false;
     }
@@ -23,6 +24,6 @@ const assertEqual = function(actual, expected) {
     return result
     }
   }
-};
-assertEqual(eqArrays([1,2,3], [1,2,3]));
-assertEqual(eqArrays([1,2,3], [3,2,1]));
+
+assertEqual(eqArrays([1,2,3], [1,2,3]), true);
+assertEqual(eqArrays([1,2,3], [3,2,1]), false);
