@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@mpathak/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide module functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Path-may1/lotide.git"
   },
-  "author": "",
+  "author": "Mayura",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Path-may1/lotide/issues"

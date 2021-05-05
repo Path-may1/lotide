@@ -29,3 +29,4 @@ function countLetters(str) {
 
   }
   assertEqual(countLetters("LHL"),{"L":2, "H":1});
+  module.exports = countLetters;

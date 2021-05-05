@@ -39,7 +39,7 @@ const countOnly = function(names, itemsToCount) {
       }
     }
   }
-  console.log(results)
+  //console.log(results)
   return results
 }
 
@@ -48,3 +48,4 @@ assertEqual(result["Jason"], 2);
 assertEqual(result["Karima"], undefined);
 assertEqual(result["Fang"], 2);
 assertEqual(result["Agouhanna"], undefined);
+module.exports = countOnly

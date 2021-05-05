@@ -53,3 +53,4 @@ console.log(results2);
 
 assertArraysEqual(eqArrays(takeUntil(data1,x => x < 0),[ 1, 2, 5, 7, 2 ]),true)
 assertArraysEqual(eqArrays(takeUntil(data2,x => x === ','),[ 'I\'ve', 'been', 'to', 'Hollywood' ]),true)
+module.exports = takeUntil

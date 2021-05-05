@@ -7,11 +7,19 @@ const map = require('./map');
 const takeUntil = require('./takeUntil');
 
 module.exports = {
-  head:  head,
-  tail: tail,
-  middle: middle,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  map: map,
-takeUntil: takeUntil
-}
+//   head: head,
+//   tail: tail,
+//   middle: middle,
+//   countLetters: countLetters,
+//   countOnly: countOnly,
+//    map: map,
+//  takeUntil: takeUntil
+// es6 form
+head,
+tail,
+middle,
+countLetters,
+countOnly,
+map,
+takeUntil
+ }
